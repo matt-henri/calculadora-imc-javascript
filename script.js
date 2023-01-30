@@ -12,7 +12,7 @@ function calcIMC() {
         if (imc < 17.9) {
             document.getElementById('resultado').textContent = `${nome} seu IMC é ${imc}, você está abaixo do peso`
         } else if (imc < 24.9) {
-            document.getElementById('resultado').textContent = `${nome} seu IMC é ${imc}, e você está no peso ideal`
+            document.getElementById('resultado').textContent = `${nome} seu IMC é ${imc}, você está no peso ideal`
         } else if (imc < 29.9) {
             document.getElementById('resultado').textContent = `${nome} seu IMC é ${imc}, você está levemente acima do peso`
         } else {
